@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts and Colors */
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0073e6;
+    color: #fff;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  /* Lead Section */
+  .leadsection {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('./Images/banner.jpg') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  .leadsection #headerlogo {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .leadsection #headerp {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .twoparagraphs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .twoparagraphs .p1,
+  .twoparagraphs .p2 {
+    max-width: 400px;
+    background: #ffffffc0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* For Section */
+  .forsection {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background: #f4f4f4;
+  }
+  
+  .forsection .for1,
+  .forsection .for2,
+  .forsection .for3 {
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .forsection img {
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* Section 4 */
+  .section4 {
+    background: #0073e6;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section4 h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .section4 img {
+    height: 100px;
+    margin: 20px auto;
+    opacity: 0.8;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
